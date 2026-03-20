@@ -45,7 +45,7 @@ def main ():
 
     perceptron = Perceptron()
 
-    train( perceptron, tablaNand, rango_de_aprendizaje=0.1,generaciones=10)
+    train( perceptron, tablaNand, rango_de_aprendizaje=0.1,generaciones=20)
 
     prueba( perceptron,tablaNand)
 
